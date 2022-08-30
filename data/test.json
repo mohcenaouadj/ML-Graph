@@ -1,0 +1,47 @@
+{
+    "nodes": [
+        {
+          "id": "1",
+          "name": "Hachem Betrouni",
+          "val": 1,
+          "group":"nlp"
+        },
+        {
+          "id": "2",
+          "name": "Mohcen Aouadj",
+          "val": 1,
+          "group":"computer vision"
+        },
+        {
+            "id": "3",
+            "name": "Ramy",
+            "val": 1,
+            "group":"nlp"
+          },
+        {
+            "id": "4",
+            "name": "Mohamed Boukaf",
+            "val": 1,
+            "group":"computer vision"
+        }
+    ],
+    "links": [
+        {
+            "source": "1",
+            "target": "2"
+        },
+        {
+            "source": "2",
+            "target": "3"
+        },
+        {
+            "source": "3",
+            "target": "4"
+        },
+        {
+            "source": "4",
+            "target": "1"
+        }
+
+    ]
+}
