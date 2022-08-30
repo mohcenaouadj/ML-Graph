@@ -1,0 +1,86 @@
+{
+	"nodes":[
+{
+	"id": "1",
+	"mail": "hashim@gmail.com",
+	"picture":"https://media-exp1.licdn.com/dms/image/C5603AQE0oZw7zBBIpw/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=DH_9q06YCcRb-GcSwvnrHfZYsuNiP45i41RgygbAtSQ",
+	"name": "Hachem Betrouni",
+	"about": "AI intern at InstaDeep",
+	"age": 22,
+	"education": ["\nNational Polytechnic School of Algiers\n"],
+	"Work" : [],
+	"Recomm":[],
+	"Ranking": "Gold",
+	"Network": [2, 3, 4],
+	"Guilds":["\nInstaDeep\n", "\nIndaba\n"],
+	"Tags": ["\nGAN\n", "\nNLP\n"]
+},
+{
+	"id": "2",
+	"mail": "mohcen@gmail.com",
+	"picture":"https://media-exp1.licdn.com/dms/image/C5603AQE0oZw7zBBIpw/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=DH_9q06YCcRb-GcSwvnrHfZYsuNiP45i41RgygbAtSQ",
+	"name": "Mohcen AOUADJ",
+	"about": "Freshly Graduated Electronics Engineer",
+	"age": 24,
+	"education": ["\nNational Polytechnic School of Algiers\n", "\nUniversity of Batna\n"],
+	"Work": [],
+	"Recomm":[],
+	"Ranking": "Silver",
+	"Network": [1, 3, 4],
+	"Guilds":[],
+	"Tags": ["\nCNN\n"]
+},
+{
+	"id": "3",
+	"mail": "moha@gmail.com",
+	"picture":"https://media-exp1.licdn.com/dms/image/C5603AQE0oZw7zBBIpw/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=DH_9q06YCcRb-GcSwvnrHfZYsuNiP45i41RgygbAtSQ",
+	"name": "Mohammed Boukaf",
+	"about": "Automatic Engineering Student",
+	"age": 22,
+	"education": ["\nNational Polytechnic School of Algiers\n"],
+	"Work": [""],
+	"Recomm":[],
+	"Ranking": "Silver",
+	"Network": [1, 2, 4],
+	"Guilds":[],
+	"Tags": ["\nNLP\n"]
+},
+{
+	"id": "4",
+	"mail": "ramy@gmail.com",
+	"picture":"https://media-exp1.licdn.com/dms/image/C5603AQE0oZw7zBBIpw/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=DH_9q06YCcRb-GcSwvnrHfZYsuNiP45i41RgygbAtSQ",
+	"name": "Ramy Hafdi",
+	"about": "Data Science Student",
+	"age": 22,
+	"education": ["\nNational Polytechnic School of Algiers\n"],
+	"Work": [],
+	"Recomm":[],
+	"Ranking": "Silver",
+	"Network": [1, 2, 4],
+	"Guilds":[],
+	"Tags": ["\nNLP\n"]
+}],
+	"links": [
+		{
+			"source": "1",
+			"target": "2"
+		},
+		{
+			"source": "2",
+			"target": "3"
+		},
+		{
+			"source": "3",
+			"target": "4"
+		},
+		{
+			"source": "4",
+			"target": "1"
+		},
+		{
+			"source": "4",
+			"target": "2"
+		}
+
+	]
+}	

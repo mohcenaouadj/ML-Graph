@@ -5,29 +5,21 @@
   <!-- <script src="3d-force-graph/src/3d-force-graph.js"></script> -->
 </head>
 <body>
-
-    <nav>
-        <ul class="topbar">
-          <li><a>help</a></li>
-          <li><a>about</a></li>
-          <li><a>cv</a></li>
-          <li><a>links</a></li>
-          <li><a>projects</a></li>
-          <li><a>blogs</a></li>
-        </ul>
-    </nav>
-
+  <nav>we will bring the community from small to <a href="space.html" >BIG</a></nav>
   <div id="3d-graph"></div>
+  
 
   <script>
 
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
         .jsonUrl('data/test.json')
-        .nodeLabel('name')
+        .nodeLabel(node => `${node.name} : ${node.about}`)
         .nodeAutoColorBy('group')
+        .backgroundColor("#040d21")
+        .showNavInfo(false)
         .linkDirectionalParticles("value")
-        .linkDirectionalParticleSpeed(d => d.value * 0.001);;
+        .linkDirectionalParticleSpeed(d => d.value * 0.001);
 
   </script>
 </body>

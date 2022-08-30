@@ -3,27 +3,80 @@
         {
           "id": "1",
           "name": "Hachem Betrouni",
+          "about": "AI intern at InstaDeep",
           "val": 1,
           "group":"nlp"
         },
         {
           "id": "2",
           "name": "Mohcen Aouadj",
+          "about": "Freshly Graduated Electronics Engineer",
           "val": 1,
-          "group":"computer vision"
+          "group":"nlp"
         },
         {
             "id": "3",
             "name": "Ramy",
+            "about": "AI student",
             "val": 1,
             "group":"nlp"
           },
         {
             "id": "4",
             "name": "Mohamed Boukaf",
+            "about":"machine learning enthusiast",
             "val": 1,
             "group":"computer vision"
-        }
+        },
+        {
+            "id": "5",
+            "name": "Ahmed Alouch",
+            "about":"data scientist",
+            "val": 5,
+            "group":"computer vision"
+          },
+          {
+            "id": "6",
+            "name": "Ishak massioun",
+            "about":"computer vision researcher",
+            "val": 1,
+            "group":"computer vision"
+          },
+          {
+            "id": "7",
+            "name": "dakar manel",
+            "about":"machine learning enthusiast",
+            "val": 1,
+            "group":"computer vision"
+          },
+          {
+            "id": "8",
+            "name": "oumayma majdouri",
+            "about" : "AI intern at InstaDeep",
+            "val": 1,
+            "group":"computer vision"
+          },
+          {
+            "id": "9",
+            "name": "faten gheims",
+            "about": "researcher",
+            "val": 1,
+            "group":"gnns"
+          },
+          {
+            "id": "10",
+            "name": "Abd-elrahman missoun",
+            "about":"AI student",
+            "val": 1,
+            "group":"gnns"
+          },
+          {
+            "id": "11",
+            "name": "Faten kamal",
+            "about":"Freshly Graduated Electronics Engineer",
+            "val": 1,
+            "group":"gnns"
+          }
     ],
     "links": [
         {
@@ -39,8 +92,40 @@
             "target": "4"
         },
         {
-            "source": "4",
-            "target": "1"
+            "source": "7",
+            "target": "8"
+        },
+        {
+            "source": "8",
+            "target": "2"
+        },
+        {
+            "source": "5",
+            "target": "2"
+        },
+        {
+            "source": "8",
+            "target": "7"
+        },
+        {
+            "source": "10",
+            "target": "7"
+        },
+        {
+            "source": "10",
+            "target": "9"
+        },
+        {
+            "source": "9",
+            "target": "7"
+        },
+        {
+            "source": "11",
+            "target": "10"
+        },
+        {
+            "source": "6",
+            "target": "10"
         }
 
     ]
