@@ -23,7 +23,7 @@ we aim to answer the following questions for our users :
 
 ## how it works ?
 Each individual create a profile on our platform, including a short summary, area of work, his experiences and certification, we vectorize these profiles using a pre-trained bert model, and use compare them using cosine similarity, the higher the similarity the closer two nodes are pulled closer in the space.   
-   
+
 
 ## prototype 
 
@@ -44,3 +44,4 @@ conda env create -f environment.yml
 ```
 3- follow `similarity_measure.ipynb` notebook.
  
+4- run a localhost and open `index.html` in you browser.
