@@ -2,7 +2,7 @@
 
 Galaxai a graph-like networking platform that aims to bring the AI/ML community in the MENA region closer, in Galaxai people are represented as nodes in a huge graph, the more similar these people are the closer they are in the Galaxai.  
 
-You get to explore people in the graph space, engage in conversations, exchange experiences and knowledge, sell/ buy locally collected datasets, invite people to your events and get freelancing, research work, internships and collaboration opportunities with people in the community.
+You get to explore people in the graph space, engage in conversations, exchange experiences and knowledge, sell/ buy locally collected datasets, invite people to your events and get freelancing and collaboration opportunities with people in the community.
 
 Researcher you are, AI engineer, data enthusiast or a student with ml background you make the community, you make Galaxai.
 
@@ -70,13 +70,17 @@ conda env create -f environment.yml
 ## show me the moneeeeeyyy !
 <img src="figures/so-wheres-my-money.jpg" style="display: block;margin-left: auto;margin-right: auto;" width="200px">
 
-we want to keep Galaxia free for the community, however there are premium features on top of it.
+The main functionality of Galaxia is free for the community, 
+however we intend on making it profitable with premium features.
 
 |features|fermium|premium|
 |--------|-------|-------|
 |price| free |9$/month|
-|graph-like networking| ✅ | ✅ |
-|unlimited messages| ✅ | ✅ |
-|unlimited depth of view| ✅ | ✅ |
-|profit commission| 20% | 10% |
-|data market |||
+|graph-like networking| ✓ | ✓ |
+|unlimited messages| ✓ | ✓ |
+|unlimited depth of view| ✓ | ✓ |
+|event posting|x|✓|
+|filters|up to 3| unlimited number|
+|freelance commission| 20% | 10% |
+|data market sells commission|17%| 15%|
+
