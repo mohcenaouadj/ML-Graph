@@ -1,59 +1,82 @@
-## ML-graph-community
+## Galaxai
 
-This project aims to bring the AI/ML community in the MENA region closer by providing a graph-like networking platform, in this platform people are represented as nodes in a huge graph, the more similar these people are the closer they are in the graph space.  
+Galaxai a graph-like networking platform that aims to bring the AI/ML community in the MENA region closer, in Galaxai people are represented as nodes in a huge graph, the more similar these people are the closer they are in the Galaxai.  
 
-researcher you are, ai engineer, data enthusiast or a student you have your node in our graph, you have your place in our community.
+You get to explore people in the graph space, engage in conversations, exchange experiences and knowledge, sell/ buy locally collected datasets, invite people to your events and get freelancing, research work, internships and collaboration opportunities with people in the community.
+
+Researcher you are, AI engineer, data enthusiast or a student with ml background you make the community, you make Galaxai.
+
 
 <img style="display: block;margin-left: auto;margin-right: auto;" width="600px" src="figures/graph1.png" >
 
-## issue we want to address
+## issues we want to address
 
-the ML and AI community in the MENA region is scattered, and so are their efforts, we aim to bring the community together and encourage it to engage in serious discussions to solve real-world problems.
+The ML and AI community in the MENA region is scattered, and so are their efforts, we aim to bring the community together and encourage it to engage in serious discussions to solve real-world problems.
 
 we aim to answer the following questions for our users : 
 - who can I collaborate with ?
 - on what should we work on ?
 - who should I ask for help in case needed ? 
 
+and provide the following services :
+- data market : sell and buy locally collected data.
+- events : share with and invite the community to your organized events.
+- collaborate : create contracts and collaborate professionally with other people in the community. 
+
 ## our philosophy 
 
-- linked-in is not cool
+- linked-in is not cool, graphs are cool.
 - we want for our platform to be focused on people not posts.
-- the social feed in other platforms is full of noise.
-- we are always trapped by our social bubble, little do we explore to find new people.
-- no likes, no private/ public, no every-day selfies, no more irrelevancy just pure networking.
+- the social feed in other platforms is full of noise, irrelevant voices and distractions.
+- in other networks users are always trapped by social bubbles, little do they explore and discover new people.
+- in Galaxia we have no likes, no private/ public, no every-day selfies, no more irrelevancy, just pure networking.
+- Galaxia is about one wielded community.
 
 ## how it works ?
 
-Each individual create a profile on our platform, including a short summary, area of work, his experiences and certification, we vectorize these profiles using a pre-trained bert model, and use compare them using cosine similarity, the higher the similarity the closer two nodes are pulled closer in the space.   
-
+Each individual create a profile on our platform, includes a short summary, area of work, his experiences and certification, Galaxia measures similarity between members of community and bring most similar ones closer. 
 
 ## prototype 
 
-pilot ideas :
+**pilot ideas** :
 
-- how we can represent and visualize people in the community as an undirected **graph**.
-- how to **measure similarity** between different profiles (here we embed user's profile using a pre-trained bert model then we measure the cosine similarity with other profiles embeddings).
+- how we can represent and visualize people in the community as a 3d **graph** ?
+- how to **measure similarity** between different profiles  ?
 
-to test it out : 
+steps we followed : 
+
+- we constructed a toy dataset, handful of users profiles.
+- using pre-trained bert model we embed user's profiles.
+- we measure the cosine similarity across the embeddings.
+- we use 3js to visualize construct a 3d graph representation in the browser.
+
+**to test it out** : 
 
 ### **measure similarity**
 
-1- clone repo :
+- clone repo :
 ```
 git clone https://github.com/1hachem/ML-Graph
 ```
-2- install dependencies :
+- install dependencies :
 ```
 conda env create -f environment.yml
 ```
-3- follow `similarity_measure.ipynb` notebook.
+- follow `similarity_measure.ipynb` notebook to get an idea on how we measure similarity across users.
  
 ### **graph view**
-1- run a localhost and open `index.html` in you browser.
+- run a localhost and open `index.html` in you browser.
 
-## working on other features
+## show me the moneeeeeyyy !
+<img src="figures/so-wheres-my-money.jpg" style="display: block;margin-left: auto;margin-right: auto;" width="200px">
 
-- data market : sell and buy locally collected data.
-- events page : share with and invite the community to you organized event.
-- collaborate : create contracts and collaborate professionally with other people in the community.  
+we want to keep Galaxia free for the community, however there are premium features on top of it.
+
+|features|fermium|premium|
+|--------|-------|-------|
+|price| free |9$/month|
+|graph-like networking| ✅ | ✅ |
+|unlimited messages| ✅ | ✅ |
+|unlimited depth of view| ✅ | ✅ |
+|profit commission| 20% | 10% |
+|data market |||
