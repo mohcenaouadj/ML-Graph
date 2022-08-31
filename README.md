@@ -30,7 +30,7 @@ Each individual create a profile on our platform, including a short summary, are
 
 ## prototype 
 
-proof of concept :
+pilot ideas :
 
 - how we can represent and visualize people in the community as an undirected **graph**.
 - how to **measure similarity** between different profiles (here we embed user's profile using a pre-trained bert model then we measure the cosine similarity with other profiles embeddings).
