@@ -5,7 +5,7 @@
   <!-- <script src="3d-force-graph/src/3d-force-graph.js"></script> -->
 </head>
 <body>
-  <nav>we will bring the community from small to <a href="space.html" >BIG</a></nav>
+  <nav style="font-family: monospace;padding: 10px 10px 10px 10px;">bring the community <a href="space.html">together</a></nav>
   <div id="3d-graph"></div>
   
 
@@ -14,7 +14,13 @@
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
         .jsonUrl('data/test.json')
-        .nodeLabel(node => `${node.name} : ${node.about}`)
+        .nodeLabel(node => `<div class="popup">
+                            <img src="${node.image}">
+                            <h2>${node.name}</h2> 
+                            <p>${node.about}</p>
+                            <p>${node.description}</p>
+                            <p>works on : ${node.group}</</p>
+                            </div>`)
         .nodeAutoColorBy('group')
         .backgroundColor("#051027")
         .showNavInfo(false)

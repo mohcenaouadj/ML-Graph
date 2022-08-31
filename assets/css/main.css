@@ -30,3 +30,15 @@ a {
 a:focus {
   outline: 0;
 }
+
+.popup{
+  width: 350px;
+  background-color: rgba(10, 37, 61, 0.741);
+  border-radius: 5%;
+}
+.popup img{
+padding: 5px 5px 5px 5px;
+width: 100px;
+border-radius: 50%;
+}
+

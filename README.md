@@ -19,9 +19,9 @@ we aim to answer the following questions for our users :
 - who should I ask for help in case needed ? 
 
 and provide the following services :
-- data market : sell and buy locally collected data.
+- data market : share publicy, sell or buy data-sets.
 - events : share with and invite the community to your organized events.
-- collaborate : create contracts and collaborate professionally with other people in the community. 
+- freelance and collaborate : create contracts and collaborate with other people in the community. 
 
 ## our philosophy 
 
@@ -81,6 +81,8 @@ however we intend on making it profitable with premium features.
 |unlimited depth of view| ✓ | ✓ |
 |event posting|x|✓|
 |filters|up to 3| unlimited number|
-|freelance commission| 20% | 10% |
-|data market sells commission|17%| 15%|
+|freelance fee| 20% | 10% |
+|data market sells fee|17%| 15%|
+|data host limit|<2GB|<20GB|
+
 

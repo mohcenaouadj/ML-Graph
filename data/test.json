@@ -3,20 +3,25 @@
         {
           "id": "1",
           "name": "Hachem Betrouni",
+          "image":"https://avatars.githubusercontent.com/u/84399880?v=4",
+          "description":"Hi there 👋\n I am a Data Science and AI student from Algeria ✨",
           "about": "AI intern at InstaDeep",
-          "val": 1,
+          "val": 4,
           "group":"nlp"
         },
         {
           "id": "2",
           "name": "Mohcen Aouadj",
+          "image":"https://avatars.githubusercontent.com/u/95057658?v=4",
+          "description":"🌱 I am a computer vision expert",
           "about": "Freshly Graduated Electronics Engineer",
-          "val": 1,
-          "group":"nlp"
+          "val": 4,
+          "group":"computer vision"
         },
         {
             "id": "3",
             "name": "Ramy",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
             "about": "AI student",
             "val": 1,
             "group":"nlp"
@@ -24,6 +29,7 @@
         {
             "id": "4",
             "name": "Mohamed Boukaf",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
             "about":"machine learning enthusiast",
             "val": 1,
             "group":"computer vision"
@@ -31,13 +37,15 @@
         {
             "id": "5",
             "name": "Ahmed Alouch",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
             "about":"data scientist",
-            "val": 5,
+            "val": 1,
             "group":"computer vision"
           },
           {
             "id": "6",
             "name": "Ishak massioun",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
             "about":"computer vision researcher",
             "val": 1,
             "group":"computer vision"
@@ -45,6 +53,7 @@
           {
             "id": "7",
             "name": "dakar manel",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
             "about":"machine learning enthusiast",
             "val": 1,
             "group":"computer vision"
@@ -52,6 +61,7 @@
           {
             "id": "8",
             "name": "oumayma majdouri",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
             "about" : "AI intern at InstaDeep",
             "val": 1,
             "group":"computer vision"
@@ -59,6 +69,7 @@
           {
             "id": "9",
             "name": "faten gheims",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
             "about": "researcher",
             "val": 1,
             "group":"gnns"
@@ -66,6 +77,7 @@
           {
             "id": "10",
             "name": "Abd-elrahman missoun",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
             "about":"AI student",
             "val": 1,
             "group":"gnns"
@@ -73,6 +85,7 @@
           {
             "id": "11",
             "name": "Faten kamal",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
             "about":"Freshly Graduated Electronics Engineer",
             "val": 1,
             "group":"gnns"

@@ -3,7 +3,7 @@
 {
 	"id": "1",
 	"mail": "hashim@gmail.com",
-	"picture":"https://media-exp1.licdn.com/dms/image/C5603AQE0oZw7zBBIpw/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=DH_9q06YCcRb-GcSwvnrHfZYsuNiP45i41RgygbAtSQ",
+	"image":"https://avatars.githubusercontent.com/u/84399880?v=4",
 	"name": "Hachem Betrouni",
 	"about": "AI intern at InstaDeep",
 	"age": 22,
@@ -12,8 +12,8 @@
 	"Recomm":[],
 	"Ranking": "Gold",
 	"Network": [2, 3, 4],
-	"Guilds":["\nInstaDeep\n", "\nIndaba\n"],
-	"Tags": ["\nGAN\n", "\nNLP\n"]
+	"Guilds":["InstaDeep", "Indaba"],
+	"Tags": ["GAN", "NLP"]
 },
 {
 	"id": "2",
