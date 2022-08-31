@@ -1,31 +1,35 @@
 <head>
-  <link rel="stylesheet" href="assets/css/main.css">
-  <script src="//unpkg.com/3d-force-graph"></script> 
-
-  <!-- <script src="3d-force-graph/src/3d-force-graph.js"></script> -->
-</head>
-<body>
-  <nav style="font-family: monospace;padding: 10px 10px 10px 10px;">bring the community <a href="space.html">together</a></nav>
-  <div id="3d-graph"></div>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="//unpkg.com/3d-force-graph"></script> 
   
-
-  <script>
-
-    const Graph = ForceGraph3D()
-      (document.getElementById('3d-graph'))
-        .jsonUrl('data/test.json')
-        .nodeLabel(node => `<div class="popup">
-                            <img src="${node.image}">
-                            <h2>${node.name}</h2> 
-                            <p>${node.about}</p>
-                            <p>${node.description}</p>
-                            <p>works on : ${node.group}</</p>
+    <!-- <script src="3d-force-graph/src/3d-force-graph.js"></script> -->
+  </head>
+  <body>
+    <nav style="font-family: monospace;padding: 10px 10px 10px 10px;"><a href="space.html">Galaxai</a>              <br> <a href="team.html">team</a></nav>
+    <div id="3d-graph"></div>
+    
+  
+    <script>
+  
+      const Graph = ForceGraph3D()
+        (document.getElementById('3d-graph'))
+          .jsonUrl('data/test.json')
+          .nodeLabel(node => `<div class="popup">
+                              <img src="${node.image}">
+                              <h2>${node.name}</h2> 
+                              <p>${node.about}</p>
+                              <p>${node.description}</p>
+                              <p>works on : ${node.group}</</p>
+                            <br>
+                            <br>
+                            <button>send message</button>
+                            <button>connect</button>
                             </div>`)
-        .nodeAutoColorBy('group')
-        .backgroundColor("#051027")
-        .showNavInfo(false)
-        .linkDirectionalParticles("value")
-        .linkDirectionalParticleSpeed(d => d.value * 0.001);
-
-  </script>
-</body>
+          .nodeAutoColorBy('group')
+          .backgroundColor("#051027")
+          .showNavInfo(false)
+          .linkDirectionalParticles("value")
+          .linkDirectionalParticleSpeed(d => d.value * 0.001);
+  
+    </script>
+  </body>

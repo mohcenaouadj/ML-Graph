@@ -42,3 +42,10 @@ width: 100px;
 border-radius: 50%;
 }
 
+.popup button{
+  color:  rgba(10, 37, 61, 0.741);
+  background-color: aliceblue;
+  border: None;
+  padding: auto;
+  padding: 5px 5px 5px 5px;
+}

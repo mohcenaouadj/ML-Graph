@@ -30,7 +30,7 @@ and provide the following services :
 - the social feed in other platforms is full of noise, irrelevant voices and distractions.
 - in other networks users are always trapped by social bubbles, little do they explore and discover new people.
 - in Galaxia we have no likes, no private/ public, no every-day selfies, no more irrelevancy, just pure networking.
-- Galaxia is about one wielded community.
+- Galaxia is about a one wielded community.
 
 ## how it works ?
 
