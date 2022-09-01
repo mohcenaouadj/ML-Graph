@@ -86,3 +86,5 @@ however we intend on making it profitable with premium features.
 |data host limit|<2GB|<20GB|
 
 
+## use cases 
+- professor you couldn't work with, look for alternatives near his node.
