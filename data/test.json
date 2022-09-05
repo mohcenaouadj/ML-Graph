@@ -3,27 +3,93 @@
         {
           "id": "1",
           "name": "Hachem Betrouni",
-          "val": 1,
+          "image":"https://avatars.githubusercontent.com/u/84399880?v=4",
+          "description":"Hi there 👋\n I am a Data Science and AI student from Algeria ✨",
+          "about": "AI intern at InstaDeep",
+          "val": 4,
           "group":"nlp"
         },
         {
           "id": "2",
           "name": "Mohcen Aouadj",
-          "val": 1,
+          "image":"https://avatars.githubusercontent.com/u/95057658?v=4",
+          "description":"🌱 I am a computer vision expert",
+          "about": "Freshly Graduated Electronics Engineer",
+          "val": 4,
           "group":"computer vision"
         },
         {
             "id": "3",
             "name": "Ramy",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            "about": "AI student",
             "val": 1,
             "group":"nlp"
           },
         {
             "id": "4",
             "name": "Mohamed Boukaf",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            "about":"machine learning enthusiast",
             "val": 1,
             "group":"computer vision"
-        }
+        },
+        {
+            "id": "5",
+            "name": "Ahmed Alouch",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            "about":"data scientist",
+            "val": 1,
+            "group":"computer vision"
+          },
+          {
+            "id": "6",
+            "name": "Ishak massioun",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            "about":"computer vision researcher",
+            "val": 1,
+            "group":"computer vision"
+          },
+          {
+            "id": "7",
+            "name": "dakar manel",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            "about":"machine learning enthusiast",
+            "val": 1,
+            "group":"computer vision"
+          },
+          {
+            "id": "8",
+            "name": "oumayma majdouri",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            "about" : "AI intern at InstaDeep",
+            "val": 1,
+            "group":"computer vision"
+          },
+          {
+            "id": "9",
+            "name": "faten gheims",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            "about": "researcher",
+            "val": 1,
+            "group":"gnns"
+          },
+          {
+            "id": "10",
+            "name": "Abd-elrahman missoun",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            "about":"AI student",
+            "val": 1,
+            "group":"gnns"
+          },
+          {
+            "id": "11",
+            "name": "Faten kamal",
+            "image":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            "about":"Freshly Graduated Electronics Engineer",
+            "val": 1,
+            "group":"gnns"
+          }
     ],
     "links": [
         {
@@ -39,8 +105,40 @@
             "target": "4"
         },
         {
-            "source": "4",
-            "target": "1"
+            "source": "7",
+            "target": "8"
+        },
+        {
+            "source": "8",
+            "target": "2"
+        },
+        {
+            "source": "5",
+            "target": "2"
+        },
+        {
+            "source": "8",
+            "target": "7"
+        },
+        {
+            "source": "10",
+            "target": "7"
+        },
+        {
+            "source": "10",
+            "target": "9"
+        },
+        {
+            "source": "9",
+            "target": "7"
+        },
+        {
+            "source": "11",
+            "target": "10"
+        },
+        {
+            "source": "6",
+            "target": "10"
         }
 
     ]

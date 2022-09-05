@@ -1,0 +1,64 @@
+{
+    "nodes": [
+        {
+          "id": "1",
+          "name": "Hachem Betrouni",
+          "image":"https://avatars.githubusercontent.com/u/84399880?v=4",
+          "description":"AI Engineer",
+          "about": "Galaxai Founder",
+          "val": 4,
+          "group":"nlp"
+        },
+        {
+          "id": "2",
+          "name": "Mohcen Aouadj",
+          "image":"https://avatars.githubusercontent.com/u/95057658?v=4",
+          "description":"Data Scientist",
+          "about": "Galaxai co-Founder",
+          "val": 4,
+          "group":"computer vision"
+        },
+        {
+            "id": "3",
+            "name": "Ramy Hafdi",
+            "description":"Designer",
+            "image":"https://media-exp1.licdn.com/dms/image/C4E03AQH0XcD2T7oNfw/profile-displayphoto-shrink_400_400/0/1637600941957?e=1667433600&v=beta&t=NxodAcHRzKdbH0m-7OmOaCcAJliSIMH7HgrTJjSwAxA",
+            "about": "UX/UI expert",
+            "val": 4
+          },
+        {
+            "id": "4",
+            "name": "Mohamed Boukaf",
+            "image":"https://media-exp1.licdn.com/dms/image/C4D03AQF9szw1x43Spg/profile-displayphoto-shrink_400_400/0/1631785547928?e=1667433600&v=beta&t=SCLf1OzjADhHsFlqDDMYd31CAQgCySLJiIw6dyfMouU",
+            "description":"Manager",
+            "about":"Marketing Manager",
+            "val": 4
+        }
+    ],
+    "links": [
+        {
+            "source": "1",
+            "target": "2"
+        },
+        {
+            "source": "2",
+            "target": "3"
+        },
+        {
+            "source": "3",
+            "target": "4"
+        },
+        {
+            "source": "2",
+            "target": "4"
+        },
+        {
+            "source": "1",
+            "target": "4"
+        },
+        {
+            "source": "3",
+            "target": "1"
+        }
+    ]
+}

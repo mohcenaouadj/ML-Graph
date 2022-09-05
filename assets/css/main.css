@@ -1,12 +1,51 @@
 body {
-    margin: 0;
-    padding: 15px 20px;
-    min-height: 99%;
-    width: auto;
-    min-width: 550px;
-    color: #000000;
-    background: #fbfbfa;
-    font-family: cursor, monospace;
-    font-size: 17px;
-    overflow-x: hidden;
+    margin: 0; 
+    color: #ffffff;
+    overflow: hidden;
   }
+
+nav{
+  position:absolute;
+  left:0;
+  right:0;
+  z-index: 1;
+  font-size: 25px;
+}
+
+nav ul{
+  list-style: none;
+  text-align: center;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    padding: 1% 1%;
+  }
+
+a {
+  color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+a:focus {
+  outline: 0;
+}
+
+.popup{
+  width: 350px;
+  background-color: rgba(10, 37, 61, 0.741);
+  border-radius: 5%;
+}
+.popup img{
+padding: 5px 5px 5px 5px;
+width: 100px;
+border-radius: 50%;
+}
+
+.popup button{
+  color:  rgba(10, 37, 61, 0.741);
+  background-color: aliceblue;
+  border: None;
+  padding: auto;
+  padding: 5px 5px 5px 5px;
+}
